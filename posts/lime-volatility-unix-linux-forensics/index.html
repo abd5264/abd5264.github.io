@@ -7,15 +7,18 @@
     <meta http-equiv="Content-Language" content="en">
 
     <meta name="author" content="Adin Drabkin">
-    <meta name="description" content="note: this blog was inspired by an assignment in CSEC 464 (Computer System Forensics) @ RIT">
+    <meta name="description" content="Volatility 2 directory cloned
+note: this blog post was inspired by an assignment in CSEC 464 (Computer System Forensics) @ RIT">
     <meta name="keywords" content="">
 
     <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="LiME and Volatility 2 Setup for Unix and Linux Forensics"/>
-<meta name="twitter:description" content="note: this blog was inspired by an assignment in CSEC 464 (Computer System Forensics) @ RIT"/>
+<meta name="twitter:description" content="Volatility 2 directory cloned
+note: this blog post was inspired by an assignment in CSEC 464 (Computer System Forensics) @ RIT"/>
 
     <meta property="og:title" content="LiME and Volatility 2 Setup for Unix and Linux Forensics" />
-<meta property="og:description" content="note: this blog was inspired by an assignment in CSEC 464 (Computer System Forensics) @ RIT" />
+<meta property="og:description" content="Volatility 2 directory cloned
+note: this blog post was inspired by an assignment in CSEC 464 (Computer System Forensics) @ RIT" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://adindrabkin.com/posts/lime-volatility-unix-linux-forensics/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2021-09-13T00:00:00+00:00" />
@@ -176,8 +179,9 @@
       <div>
         
         <!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<p><em>note: this blog was inspired by an assignment in CSEC 464 (Computer System Forensics) @ RIT</em></p>
+<p><img src="/images/blog/2021_09_13/vol_thumb.jpg" alt=""><br>
+<em>Volatility 2 directory cloned</em></p>
+<p><em>note: this blog post was inspired by an assignment in CSEC 464 (Computer System Forensics) @ RIT</em></p>
 <h1 id="introduction">Introduction</h1>
 <p>Volatility 2 is a powerful python volatile memory extraction utility framework. Volatility 2 uses operating system &ldquo;profiles&rdquo; when analyzing a memory dump, which can be specified at runtime. Windows profiles are included in the base Volatility 2 repository, while Linux profiles can be found externally and sometimes require custom initialization.</p>
 <p>This guide will specify the additional steps required to analyze a memory dump taken from a Linux machine, including how to create the profile Volatility requires for analysis.</p>
@@ -226,7 +230,7 @@ sudo zip volatility/plugins/overlays/linux/[profilename].zip tools/linux/module.
 Ensure that the Volatility code is directly executed from the folder it was downloaded into. Execute <code>python2 vol.py</code> rather than <code>vol.py</code>.</p>
 <p>For example:</p>
 <div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">python2 vol.py -f parallels_ubuntu.bin --profile=LinuxUbuntu-5_4_0-80-genericx64 linux_arp
-</code></pre></div><p>Note: ARM users may receive a &ldquo;KeyError: &lsquo;__int128 unsigned&rsquo;&rdquo; error. To fix this, insert <code>'__int128 unsigned': 'unsigned long long',</code> into the <code>tp2vol</code> definition under <code>volatility/dwarf.py</code><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+</code></pre></div><p>Note: Some users may receive a &ldquo;KeyError: &lsquo;__int128 unsigned&rsquo;&rdquo; error. To fix this, insert <code>'__int128 unsigned': 'unsigned long long',</code> into the <code>tp2vol</code> definition under <code>volatility/dwarf.py</code><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
 <h1 id="conclusion">Conclusion</h1>
 <p>The duo of LiME and Volatility provide an imense amount of power, once the hurdles of setup are cleared. Volatility 3<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>, released in 2019, is a complete rewrite of Volatility 2, scraping the idea of profiles all together.</p>
 <p>The following guides give information and examples on Volatility 2 commands for Linux. Ensure to specify the custom profile created when attempting the commands found.</p>
