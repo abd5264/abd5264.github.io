@@ -2,16 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://adindrabkin.com/posts/csec-380-blog-cve-2019-8341/</loc>
-    <lastmod>2021-05-09T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://adindrabkin.com/</loc>
-    <lastmod>2021-05-09T00:00:00+00:00</lastmod>
+    <lastmod>2021-09-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://adindrabkin.com/categories/blog/</loc>
-    <lastmod>2021-05-09T00:00:00+00:00</lastmod>
+    <lastmod>2021-09-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://adindrabkin.com/categories/</loc>
+    <lastmod>2021-09-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://adindrabkin.com/tags/forensics/</loc>
+    <lastmod>2021-09-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://adindrabkin.com/tags/lime/</loc>
+    <lastmod>2021-09-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://adindrabkin.com/posts/lime-volatility-unix-linux-forensics/</loc>
+    <lastmod>2021-09-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://adindrabkin.com/tags/linux/</loc>
+    <lastmod>2021-09-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://adindrabkin.com/posts/</loc>
+    <lastmod>2021-09-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://adindrabkin.com/tags/rit/</loc>
+    <lastmod>2021-09-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://adindrabkin.com/tags/</loc>
+    <lastmod>2021-09-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://adindrabkin.com/tags/unix/</loc>
+    <lastmod>2021-09-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://adindrabkin.com/posts/csec-380-blog-cve-2019-8341/</loc>
     <lastmod>2021-05-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://adindrabkin.com/tags/cve/</loc>
@@ -26,16 +50,7 @@
     <loc>https://adindrabkin.com/tags/flask/</loc>
     <lastmod>2021-05-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://adindrabkin.com/posts/</loc>
-    <lastmod>2021-05-09T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://adindrabkin.com/tags/python/</loc>
-    <lastmod>2021-05-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://adindrabkin.com/tags/rit/</loc>
-    <lastmod>2021-05-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://adindrabkin.com/tags/</loc>
     <lastmod>2021-05-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://adindrabkin.com/about/</loc>

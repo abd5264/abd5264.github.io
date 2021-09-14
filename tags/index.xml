@@ -6,7 +6,52 @@
     <description>Recent content in Tags on Adin Drabkin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 09 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://adindrabkin.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 13 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://adindrabkin.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>forensics</title>
+      <link>https://adindrabkin.com/tags/forensics/</link>
+      <pubDate>Mon, 13 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://adindrabkin.com/tags/forensics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>LiME</title>
+      <link>https://adindrabkin.com/tags/lime/</link>
+      <pubDate>Mon, 13 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://adindrabkin.com/tags/lime/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>linux</title>
+      <link>https://adindrabkin.com/tags/linux/</link>
+      <pubDate>Mon, 13 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://adindrabkin.com/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rit</title>
+      <link>https://adindrabkin.com/tags/rit/</link>
+      <pubDate>Mon, 13 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://adindrabkin.com/tags/rit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>unix</title>
+      <link>https://adindrabkin.com/tags/unix/</link>
+      <pubDate>Mon, 13 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://adindrabkin.com/tags/unix/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>cve</title>
       <link>https://adindrabkin.com/tags/cve/</link>
@@ -40,15 +85,6 @@
       <pubDate>Sun, 09 May 2021 00:00:00 +0000</pubDate>
       
       <guid>https://adindrabkin.com/tags/python/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>rit</title>
-      <link>https://adindrabkin.com/tags/rit/</link>
-      <pubDate>Sun, 09 May 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://adindrabkin.com/tags/rit/</guid>
       <description></description>
     </item>
     
